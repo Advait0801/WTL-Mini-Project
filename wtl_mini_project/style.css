@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/pexels-instawalli-176851.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    
+}
+
+ul{
+    text-align: center;
+    list-style-type:none;
+    margin-top: 0px;
+    min-height: 400px;
+    font-size: 50px;
+}
+
+ul li{
+    text-align: center;
+    display: inline-block;
+    margin-top: 300px;
+}
+
+ul li a{
+
+    text-decoration:underline;
+    color:white;
+    padding: 10px 40px;
+    border: 1px solid transparent;
+    transition: 0.5  ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.logo img{
+    margin-left: 490px;
+    margin-top: 60px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.concept{
+    color: white;
+    text-align: center;
+    margin-top: -320px;
+    font-size: 40px;
+    font-weight: bolder;
+}
