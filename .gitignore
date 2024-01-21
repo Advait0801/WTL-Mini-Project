@@ -1,0 +1,5 @@
+/build
+/bin
+/.vim
+/.vscode
+/.gradle
