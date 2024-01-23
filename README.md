@@ -26,3 +26,5 @@ These additional references should also help you:
 ## Endpoints
 
 - `GET /teams`: Get all teams
+- `GET /teams/{id}`: Get team with given `id`
+

@@ -2,6 +2,7 @@ package com.shubham0204.inc.backend.teams;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -14,6 +15,12 @@ public class TeamsService {
 
     @Autowired
     private TeamsRepository repository;
+
+    public Optional<Team> getTeamById(
+        long id
+    ) {
+        return repository.findById( id ) ; 
+    }
 
     public List<Team> getAllTeams() {
         List<Team> teams = new ArrayList<Team>() ; 
